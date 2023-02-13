@@ -1,0 +1,35 @@
+Array
+(
+    [NOME] => FLáVIO HENRIQUE DE SOUZA GONçALVES
+    [CPF] => 61932981187
+    [data_nascimento_aluno] => 1976-07-13
+    [naturalidade_aluno] => Brasília 
+    [estado_natal_aluno] => DF
+    [cep] => 71929000
+    [numero_casa] => S/N
+    [endereco_casa] => Rua 28 lote 6/8 torre 1 apto 
+    [bairro] => Sul (Águas Claras)
+    [email] => flaest@hotmail.com
+    [telefone] => 61992888129
+    [email_resp] => flaest@hotmail.com
+    [sexo] => M
+    [cidade] => Brasília 
+    [uf] => DF
+    [ano escolar] => 17
+    [tipo do responsavel] => 
+    [nome do responsavel] => 
+    [cpf do responsavel] => 
+    [telefone do responsavel] => 
+    [dt de nascimento resp] => 
+    [estado civil resp] => 
+    [naturalidade do resp financeiro] => 
+    [cidade natal do resp financeiro] => 
+    [estado natal do resp financeiro] => 
+    [RG do aluno] => 
+    [Tipo do responsavel acadêmico] => 
+    [nome resp academico] => 
+    [naturalidade do resp academico] => 
+    [cidade natal do resp academico] => 
+    [estado natal do resp academico] => 
+    [email resp academico] => 
+)
