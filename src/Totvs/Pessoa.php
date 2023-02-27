@@ -115,7 +115,7 @@ function ValidaSePessoaExiste($nome,$dtnascimento,$estadonatal,$naturalidade,$cp
 
 }
 
-// Consulta INT.0003
+// // Consulta INT.0003
 // WITH VERIFICA AS (
 //     SELECT DISTINCT CODIGO
 //     FROM (

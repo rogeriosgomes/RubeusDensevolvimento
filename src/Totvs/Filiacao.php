@@ -32,8 +32,16 @@ class Filiacao
     }
 
 
-    function GetFiliacao($codpessoafiliacao, $codpessoafilho, $tiporelac, $login_integracao, $data_atual)
+    function GetFiliacao($codpessoafiliacao, $codpessoafilho, $tipoRelacionamento, $login_integracao, $data_atual)
     {
+
+        if ($tipoRelacionamento == "Pai")
+        {
+           $tiporelac = "P";
+        } elseif ($tipoRelacionamento == "Mãe" or $tipoRelacionamento== "M\u00e3e") 
+        {
+            $tiporelac = "M";
+        }
     
    
         $client = $client =conectaDataServer();
