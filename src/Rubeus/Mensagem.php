@@ -53,6 +53,7 @@ Class Mensagem
              'Accept: application/json',
          ]);
          curl_setopt($curl, CURLOPT_POST, 1);
+         curl_setopt($curl, CURLOPT_MAXREDIRS, -1);
          curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($params));
          curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
          
@@ -101,6 +102,7 @@ Class Mensagem
              'Accept: application/json',
          ]);
          curl_setopt($curl, CURLOPT_POST, 1);
+         curl_setopt($curl, CURLOPT_MAXREDIRS, -1);
          curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($params));
          curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
          
@@ -118,7 +120,7 @@ Class Mensagem
          }
         
 
-         return  $response;
+         return  $err;
     }
  }
 
